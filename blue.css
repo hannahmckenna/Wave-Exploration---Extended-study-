@@ -1,0 +1,496 @@
+body {
+
+    background-blend-mode: overlay;
+    background-color: rgb(0, 0, 0);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* intro */
+/* intro */
+/* intro */
+
+
+
+
+.main-head {
+    font-size: 3vw;
+    text-align: center;
+    padding: 1%;
+    font-style: italic;
+    border: solid .1vw white;
+    color: white;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background-image: url(./background/Home-1.JPG);
+    
+}
+
+.sub-heading {
+    font-size: 1vw;
+    color: white;
+    width: 50%;
+    margin-top: 10%;
+    margin: 3% 0% 0% 2%;
+
+}
+
+.menu {
+    padding: 2.2% 0% 0% 2%;
+    position: sticky;
+    top: 0;
+    width: 14%;
+    margin-top: 8%;
+}
+
+.home {
+    color: white;
+    position: sticky;
+    border: .1vw solid white;
+    font-size: 1vw;
+    font-style: italic;
+    padding: 2%;
+    margin: 5% 0% 0% 2%;
+    text-align: center;
+    margin: 220% 0% 7% 0%;
+    font-size: 1vw;
+    opacity: 90%;
+}
+
+.block {
+    height: 4%;
+    width: 100%;
+    margin-top: 30%;
+
+
+}
+
+.sky {
+    margin: 0% 0% 7% 0%;
+    color: white;
+    border: .1vw solid white;
+    padding: 8%;
+    text-decoration: none;
+    text-align: center;
+    font-size: .8vw;
+    
+}
+
+.sky:hover {
+    margin: 0% 0% 7% 0%;
+    color: white;
+   background-image: url(./background/index-bg.JPG);
+    border: .1vw solid white;
+    padding: 8%;
+    text-decoration: none;
+    text-align: center;
+    font-size: .8vw;
+
+    
+}
+
+
+.splash {
+    margin: 0% 0% 7% 0%;
+    color: white;
+    border: .1vw solid white;
+    padding: 8%;
+    text-decoration: none;
+    text-align: center;
+    font-size: .8vw;
+    
+}
+
+.splash:hover{
+    margin: 0% 0% 7% 0%;
+    color: white;
+   background-image: url(./background/index-bg-4.JPG);
+    border: .1vw solid white;
+    padding: 8%;
+    text-decoration: none;
+    text-align: center;
+    font-size: .8vw;
+    
+}
+
+.sound {
+    margin: 0% 0% 7% 0%;
+    color: white;
+    border: .1vw solid white;
+    padding: 8%;
+    text-decoration: none;
+    text-align: center;
+    font-size: .8vw; 
+}
+
+.sound:hover {
+    margin: 0% 0% 7% 0%;
+    color: white;
+   background-image: url(./background//home-5.jpg);
+    border: .1vw solid white;
+    padding: 8%;
+    text-decoration: none;
+    text-align: center;
+    font-size: .8vw; 
+}
+
+.micro {
+    margin: 0% 0% 7% 0%;
+    color: white;
+    border: .1vw solid white;
+    padding: 8%;
+    text-decoration: none;
+    text-align: center;
+    font-size: .8vw; 
+}
+
+.micro:hover {
+    margin: 0% 0% 7% 0%;
+    color: white;
+   background-image: url(./background/index-bg-2.JPG);
+    border: .1vw solid white;
+    padding: 8%;
+    text-decoration: none;
+    text-align: center;
+    font-size: .8vw; 
+}
+
+
+
+
+/* side scrolls */
+/* side scrolls */
+/* side scrolls */
+
+.container-main-1-sky {
+    max-width: 50%;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: scroll; 
+    overflow: scroll;
+    font-size: .5vw;
+    background-image: url(./background/bacakground-1.JPG);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container-main-2-sky {
+    max-width: 50%;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: scroll; 
+    overflow: scroll;
+    background-image: url(./background/bg-primary-sky.JPG);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-main-1-splash {
+    max-width: 50%;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: scroll; 
+    overflow: scroll;
+
+    background-image: url(./background/bg-splssh.JPG);
+    /* background-color: rgb(252, 250, 224); */
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.container-main-2-splash {
+    max-width: 50%;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: scroll; 
+    overflow: scroll;
+    background-image: url(./background/bg-splash-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.container-main-1-micro {
+    max-width: 50%;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: scroll; 
+    overflow: scroll;
+
+    background-image: url(./background/micro-bg-secondary.JPG);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.container-main-2-micro {
+    max-width: 50%;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: scroll; 
+    overflow: scroll;
+    background-image: url(./background/bg-micro-primary.jpeg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container-main-1-sound {
+    max-width: 50%;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: scroll; 
+    overflow: scroll;
+    background-image: url(./background/phone-primary-4.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-main-2-sound {
+    max-width: 50%;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: scroll; 
+    overflow: scroll;
+    background-image: url(./background/phone-primary-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* all headings */
+/* all headings */
+/* all headings */
+
+.header {
+    color: white;
+    font-size: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    border: .1vw solid ivory;
+    width: 100%;
+    margin: 5% 2% 5% 10%;
+    text-align: center;
+    width: 80%;
+}
+
+.header-2 {
+    color: white;
+    font-size: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    border: .1vw solid ivory;
+    width: 100%;
+    margin: 15% 2% 5% 10%;
+    text-align: center;
+    width: 80%;
+}
+
+
+.title-1 {
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    border: .1vw solid white;
+    padding: 1%;
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+    /* background-image: url(./images/index-bg-2.JPG); */
+    position: sticky;
+    top: 0;
+    background-image: url(./background/index-bg-4.JPG);
+    /* background-color:  rgb(252, 250, 224); */
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+}
+
+.title-2 {
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    border: .1vw solid white;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-image: url(./images/index-bg-2.JPG); */
+    position: sticky;
+    top: 0;
+    background-image: url(./background/index-bg-4.JPG);
+    /* background-color: rgb(252, 250, 224); */
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+}
+
+.secondary {
+    color: white;
+    font-size: 1vw;
+    width: 90%;
+    margin: 2% 0% 0% 0%;
+    text-align: left;
+    position: sticky;
+    top: 10;
+
+}
+
+.primary {
+    color: white;
+    font-size: 1vw;
+    width: 90%;
+    margin: -1.4% 0% 0% 10%;
+    text-align: right;
+    position: sticky;
+    top: 10;
+
+}
+
+
+
+
+/* splash */
+/* splash */
+/* splash */
+
+
+.section-2-1 {
+    height: 20vh;
+    width: 75%;
+    margin-left: 20%;
+}
+
+
+.section-2-2 {
+    height: 100vh;
+    margin-bottom: 30%;
+    border: solid white .1vw;
+    width: 75%;
+    margin-left: 20%;
+}
+
+
+/* sky */
+/* sky */
+/* sky */
+
+
+
+.section-3-1 {
+    height: 20vh;
+    width: 75%;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+
+.section-3-2 {
+    height: 100vh;
+    margin-bottom: 30%;
+    border: solid white .1vw;
+    width: 75%;
+    margin-left: 20%;
+}
+
+
+/* micro/sound */
+/* micro/sound */
+/* micro/sound */
+
+.section-4-1 {
+    height: 20vh;
+    width: 75%;
+    margin-left: 20%;
+}
+
+
+.section-4-2 {
+    height: 100vh;
+    margin-bottom: 30%;
+    border: solid white .1vw;
+    width: 75%;
+    margin-left: 20%;
+}
+
+
+/* text  and img size  */
+/* text  and img size  */
+/* text  and img size  */
+
+.secondary-micro-body {
+    font-size: .9vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 80%;
+    margin: 2% 0% 10% 10%;
+}
+
+.secondary-micro-body-2 {
+    font-size: .9vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 80%;
+    margin: 2% 0% 3% 10%;
+}
+
+.secondary-micro-body-3 {
+    font-size: .9vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    width: 80%;
+    margin: 2% 0% 10% 10%;
+}
+
+.second-img-micro {
+    width: 80%;
+    margin: 2% 0% 10% 10%;
+
+}
+
+.second-img-micro-2 {
+    width: 80%;
+    margin: 2% 0% 15% 10%;
+
+}

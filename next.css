@@ -1,0 +1,210 @@
+body {
+    background-color: black;
+}
+
+.where-to {
+    width: 30%;
+    font-size: 1vw;
+    border: solid white .1vw;
+    color: white;
+    padding: .5%;
+
+}
+.where-to:hover {
+    width: 30%;
+    font-size: 1vw;
+    border: solid white .1vw;
+    color: white;
+    padding: .5%;
+    background-image: url(./background/index-bg-4.JPG);
+}
+
+.arrow {
+    color: white;
+    font-size: .7vw;
+    margin: 2% 0% 0% 0% ;
+    
+}
+
+hr {
+    height: 2%;
+    color: white;
+    border-width: 5;
+    width: 100%;    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.month {
+    color: white;
+    font-size: 3vw;
+
+}
+
+.to-do {
+    color: white;
+    font-size: 1vw;
+}
+
+
+
+.top-months {
+    height: 25vh;
+    width: 300%;
+
+}
+
+.top-to-do {
+    height: 25vh;
+    width: 300%;
+}
+
+.months-top-1{
+    float: left;
+    color: white;
+    font-size: 2vw;
+    margin: 2% 0% 0% 5%;
+    font-weight: 300;
+    border: solid white .05vw;
+    padding: .2%;
+    width: 10%;
+}
+
+.months-top {
+    float: left;
+    color: white;
+    font-size: 2vw;
+    margin: 2% 0% 0% 23%;
+    border: solid white .05vw;
+    padding: .2%;
+    width: 10%;
+}
+
+
+.text-top-1 {
+    float: left;
+    width: 10%;
+    font-size: 1vw;
+    color: white;
+    margin: -.5% 0% 0% 5%;
+
+}
+
+.text-top-2 {
+    float: left;
+    width: 10%;
+    font-size: 1vw;
+    color: white;
+    margin: -.5% 0% 0% 23.4%;
+
+}
+
+.text-top-3 {
+    float: left;
+    width: 10%;
+    font-size: 1vw;
+    color: white;
+    margin: -.5% 0% 0% 23.4%;
+
+}
+
+
+
+.line {
+    height: 1.5vh;
+    width: 300%;
+}
+
+
+
+.bottom-months {
+    height: 25vh;
+    width: 300%;
+}
+
+.bottom-to-do {
+    height: 25vh;
+    width: 300%;
+}
+
+.months-bottom-1{
+    float: left;
+    color: white;
+    margin: 2% 0% 0% 20%;
+    font-weight: 300;
+    float: left;
+    color: white;
+    font-size: 2vw;
+    border: solid white .05vw;
+    padding: .2%;
+    width: 10%;
+}
+
+.months-bottom {
+    float: left;
+    color: white;
+    margin: 2% 0% 0% 23%;
+    font-weight: 300;
+    font-size: 2vw;
+    border: solid white .05vw;
+    padding: .2%;
+    width: 10%;
+}
+
+.text-bottom-1 {
+    float: left;
+    width: 10%;
+    font-size: 1vw;
+    color: white;
+    margin: 0% 0% 0% 20%;
+
+    
+}
+
+.text-bottom-2 {
+    float: left;
+    width: 10%;
+    font-size: 1vw;
+    color: white;
+    margin: -.5% 0% 0% 23.4%;
+}
+
+.text-bottom-3 {
+    float: left;
+    width: 10%;
+    font-size: 1vw;
+    color: white;
+    margin: -.5% 0% 0% 23.4%;
+}
+
+
+.home {
+    color: white;
+    border: .1vw solid white;
+    font-size: 1vw;
+    font-style: italic;
+    padding: .5%;
+    text-align: center;
+    margin: -3% 0% 5% 1%;
+    font-size: 1vw;
+    opacity: 90%;
+    width: 10%;
+}
+
+.home:hover {
+    color: white;
+    border: .1vw solid white;
+    font-size: .8vw;
+    font-style: italic;
+    padding: .5%;
+    text-align: center;
+    margin: -3% 0% 5% 1%;
+    font-size: 1vw;
+    opacity: 90%;
+    width: 10%;
+    background-image: url(./background/index-bg-4.JPG);
+}
+

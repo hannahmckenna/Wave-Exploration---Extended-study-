@@ -1,0 +1,115 @@
+body {
+    background-image: url(./background/home-3.JPG); 
+    background-blend-mode: darken;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.menu {
+    padding: 5% 0% 0% 7%;
+}
+
+
+
+.Experiments {
+    margin: 0% 0% 2% 0%;
+    color: black;
+    border: .1vw solid black;
+    width: 15%;
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3vw;
+    
+}
+
+.Experiments:hover {
+    fill: white;
+    margin: 0% 0% 2% 0%;
+    text-decoration: none;
+    color: white;
+    background-image: url(./background/index-bg.JPG);
+    opacity: 80%;
+    text-align: center;
+    font-size: 1.3vw;
+    border: .1vw solid white;
+}
+
+.Proposal {
+    margin: 0% 0% 2% 0%;
+    color: black;
+    border: .1vw solid black;
+    width: 15%;
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3vw;
+    
+}
+
+.Proposal:hover {
+    fill: white;
+    margin: 0% 0% 2% 0%;
+    color: white;
+    text-decoration: none;
+    background-image: url(./background/index-bg-4.JPG);
+    opacity: 80%;
+    text-align: center;
+    font-size: 1.3vw;
+    border: .1vw solid white;
+    
+}
+
+.Where-next {
+    margin: 0% 0% 2% 0%;
+    color: black;
+    border: .1vw solid black;
+    width: 15%;
+    padding: 1%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3vw;
+    
+}
+
+.Where-next:hover {
+    margin: 0% 0% 2% 0%;
+
+    text-decoration: none;
+    color: white;
+   background-image: url(./background/home-5.jpg);
+    opacity: 80%;
+    text-align: center;
+    font-size: 1.3vw;
+    border: .1vw solid white;
+}
+
+
+
+.title-index {
+    font-style: italic;
+    font-size: 3vw;
+    color: black;
+    margin: 5% 0% 0% 7%;
+}
+
+
+.qustion-index {
+    font-size: 1vw;
+    color: black;
+    width: 35%;
+    margin: 2% 0% 5% 7%;
+}
+
+.qustion-index-italic {
+    font-size: 1vw;
+    color: black;
+    width: 35%;
+    margin: 2% 0% 1% 0%;
+    font-style: italic;
+}
